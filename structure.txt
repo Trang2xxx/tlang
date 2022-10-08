@@ -1,0 +1,27 @@
+entity
+
+flashcard:
+  component:
+    card:
+      key:
+      value:
+    prev btn: display prev card
+    next btn:display next card
+
+quiz:
+  component:
+    quiz box:
+      question:
+      answer:[].
+      correct answer,
+      wrong answer,
+
+funcitonal:
+  create quiz
+    question,
+    answer,
+    correct answer
+
+  create flashcard
+    key: question,
+    value: answer
